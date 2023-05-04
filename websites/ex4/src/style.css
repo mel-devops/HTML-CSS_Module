@@ -1,8 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
     font-size: large;
-    line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
 
    
@@ -10,9 +8,11 @@
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: first baseline;
     flex-direction: column; 
     flex-wrap: wrap;
+
 
 }
 
@@ -22,7 +22,7 @@ img {
     height:100%;
 }
 
-.nav {
+h2 {
     float: right;
     
 }
@@ -30,10 +30,47 @@ img {
 .container1 {
 
     display: flex;
-    flex: 1 0 100px;
+    border-radius: 10px;
     background-color: lightgray;
     font-size: small;
     justify-content: center;
-    flex-basis: 200px;
-    flex-grow: 1px;
+    height: 50vh;
 }
+
+.container2 {
+
+    display: flex;
+    border-radius: 10px;
+    background-color: lightgray;
+    font-size: small;
+    justify-content: center;
+    height: 100vh;
+
+ 
+}
+
+.button {
+   border-radius: 25px; 
+   width: 50%;
+   height: 30%;
+   justify-content: center;
+   align-self: center;
+  }
+
+.footer {
+
+    display: flex;
+    background-color:blue;
+    font-size: small;
+    justify-content: center;
+    height: 20vh;
+}
+
+p {
+    text-align: center;
+
+
+}
+
+
+
