@@ -4,6 +4,7 @@
     font-size: large;
     line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
+
    
 }
 
@@ -18,13 +19,17 @@
 
 }
 
+body {background-color: lightgray;
+    
+}
 .nav {
     display: flex;
     flex: 1 0 100px;
     background-color: lightblue;
+    font-size: small;
     justify-content: left;
     margin: 10px;
-    contain-intrinsic-height:;
+    contain-intrinsic-height: 10px;
     flex-basis: 200px;
     flex-grow: 1px;
     border-radius: 15px;
@@ -38,7 +43,7 @@
     background-color: lightcoral;
     justify-content: center;
     margin: 10px;
-    contain-intrinsic-height:;
+    contain: intrinsic height 10px;
     flex-basis: 200px;
     flex-grow: 1px;
     border-radius: 15px;
@@ -46,13 +51,13 @@
     padding: 10px;
 }
 
-.checkbox{
+.checkbox {
     display: flex;
     flex: 1 0 100px;
     background-color: lemonchiffon;
     justify-content: left;
     margin: 10px;
-    contain-intrinsic-height:;
+    contain: intrinsic height 10px;
     flex-basis: 200px;
     flex-grow: 1px;
     border-radius: 15px;
@@ -66,7 +71,7 @@
     background-color: lightseagreen;
     justify-content: left;
     margin: 10px;
-    contain-intrinsic-height:;
+    contain-intrinsic-height:10px;
     flex-basis: 200px;
     flex-grow: 1px;
     border-radius: 10px;
@@ -75,14 +80,20 @@
 }
 
     
-table, th, td {
-  border: 1px solid white;
+table, th {
+  border: 1px solid black;
   border-collapse: collapse;
   align-self: center;
 }
 
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    align-self: center;
+
+}
 tr:nth-child(1) {
-    background-color: lightgrey;
+    background-color: white;
  
   }
 
