@@ -12,8 +12,8 @@
     justify-content: first baseline;
     flex-direction: column; 
     flex-wrap: wrap;
-    padding: 0px; 
-   
+    padding: 50px; 
+  
 
 }
 
@@ -36,7 +36,6 @@
     flex: 1 0 100px;
     background-color: lightcoral;
     justify-content: center;
-    align-items: right;
     margin: 10px;
     contain-intrinsic-height:;
     flex-basis: 200px;
@@ -46,7 +45,7 @@
     padding: 10px;
 }
 
-.list{
+.checkbox{
     display: flex;
     flex: 1 0 100px;
     background-color: lemonchiffon;
@@ -69,7 +68,7 @@
     contain-intrinsic-height:;
     flex-basis: 200px;
     flex-grow: 1px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 1px solid black;
     padding: 10px;
 }
