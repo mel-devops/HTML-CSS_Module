@@ -13,7 +13,7 @@
     justify-content: first baseline;
     flex-direction: column; 
     flex-wrap: wrap;
-    padding: 50px; 
+
 }
 
 img {
@@ -40,18 +40,28 @@ body {
     background-color: lightgray;
     font-size: small;
     justify-content: center;
-    margin: 10px;
     flex-basis: 200px;
     flex-grow: 1px;
-
-
+    height: 50vh;
 }
+
+
+
 
 .submit {
 
     background-color: #0072e1; /*Blue*/
     color: white
     
+}
+
+    
+
+
+.button {
+
+    border-radius: 100px;
+
 
 
 }
@@ -64,10 +74,18 @@ body {
     background-color: gray;
     font-size: small;
     justify-content: center;
-    margin: 10px;
     flex-basis: 200px;
     flex-grow: 1px;
     color: white;
-
+    height: 50vh;
 }
+
+.input [type="text"]  {
+
+        font-size:10px;
+    }
+
+
+
+
 
