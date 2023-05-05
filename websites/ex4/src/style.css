@@ -8,8 +8,6 @@
 
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: first baseline;
     flex-direction: column; 
     flex-wrap: wrap;
 
@@ -30,7 +28,6 @@ h2 {
 .container1 {
 
     display: flex;
-    border-radius: 10px;
     background-color: lightgray;
     font-size: small;
     justify-content: center;
@@ -40,7 +37,6 @@ h2 {
 .container2 {
 
     display: flex;
-    border-radius: 10px;
     background-color: lightgray;
     font-size: small;
     justify-content: center;
@@ -51,25 +47,31 @@ h2 {
 
 .button {
    border-radius: 25px; 
-   width: 50%;
-   height: 30%;
+   width: 40%;
+   height: 25%;
    justify-content: center;
    align-self: center;
   }
 
-.footer {
+.container3 {
 
     display: flex;
     background-color:blue;
     font-size: small;
+    color: lightgray;
     justify-content: center;
     height: 20vh;
 }
 
-p {
-    text-align: center;
 
+.aside {
 
+    float: right;
+
+}
+
+.section {
+    float: left;
 }
 
 
