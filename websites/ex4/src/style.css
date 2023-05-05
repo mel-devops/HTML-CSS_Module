@@ -59,20 +59,13 @@ h2 {
     background-color:blue;
     font-size: small;
     color: lightgray;
-    justify-content: center;
     height: 20vh;
+    justify-content: space-between;
 }
 
 
-.aside {
 
-    float: right;
 
-}
-
-.section {
-    float: left;
-}
 
 
 
